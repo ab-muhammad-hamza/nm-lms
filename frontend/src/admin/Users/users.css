@@ -1,0 +1,28 @@
+.users {
+  overflow-x: auto;
+  white-space: nowrap;
+  margin: 20px auto;
+  min-height: 80vh;
+  border: solid gray 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+}
+
+table {
+  background-color: white;
+  width: 90%;
+}
+
+td {
+  text-align: center;
+  padding: 3px;
+}
+
+.common-btn{
+  margin-bottom: 5px;
+}

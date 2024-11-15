@@ -1,0 +1,122 @@
+.bubble {
+  background: #1ABC9C;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  border-radius: 100%;
+  z-index: 1;
+  top: -90px;
+  left: -150px;
+  filter: blur(120px);
+  opacity: 0.6;
+}
+.bubble-variation-2 {
+  background: #1ABC9C;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  border-radius: 100%;
+  z-index: -1;
+  bottom: -90px;
+  right: -150px;
+  filter: blur(120px);
+  opacity: 0.6;
+}
+
+.home {
+  background-color: #121212;
+  padding: 100px 0;
+  text-align: center;
+
+  .home-content {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #ececec;
+    padding-bottom: 100px;
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+
+      @media (max-width: 768px) {
+        font-size: 28px;
+      }
+    }
+
+    p {
+      font-size: 18px;
+      color: #d6d6d6;
+      margin-bottom: 40px;
+
+      @media (max-width: 768px) {
+        font-size: 16px;
+      }
+    }
+
+    button {
+      padding: 12px 24px;
+    }
+  }
+}
+
+.marquee-section {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.marquee {
+  position: relative;
+  width: 100%;
+  height: 69px;
+  overflow-x: hidden;
+  overflow: hidden;
+}
+
+.track {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 10s linear infinite;
+}
+
+.marquee-text {
+  color: white;
+  font-size: 54px;
+  font-weight: bold;
+  margin-bottom: 0px!important;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-25%); }
+}
+
+.courses-section {
+  background-color: rgb(23, 23, 23);
+
+  .course-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+  }
+
+  h2 { 
+    color: white!important;
+    font-size: 50px!important;
+    line-height: 1!important;
+    margin-bottom: 0!important;
+  }
+  p {
+    color: white;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .marquee { height:75px; }
+  .marquee-text { font-size: 48px; }
+  .bubble { width: 320px; height: 320px; }
+  .bubble-variation-2 { display: none;}
+}
