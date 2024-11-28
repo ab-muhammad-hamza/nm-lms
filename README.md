@@ -1,15 +1,6 @@
 # lemida-lms
-A fullstack advanced LMS MERN project with vite!
-<div align="center">
 
-<img src="https://i.imgur.com/wshEvXz.png" alt="NumberDeck Cover">
-
-# Lemida
-[![Release](https://img.shields.io/github/v/release/ab-muhammad-hamza/lemida-lms.svg)](https://github.com/ab-muhammad-hamza/NumberDeck/releases/)
-[![License](https://img.shields.io/github/license/ab-muhammad-hamza/lemida-lms.svg)](https://github.com/ab-muhammad-hamza/NumberDeck/blob/main/LICENSE)
-[![Stars](https://img.shields.io/github/stars/ab-muhammad-hamza/lemida-lms.svg)](https://github.com/ab-muhammad-hamza/NumberDeck/stargazers)
-[![Issues](https://img.shields.io/github/issues/ab-muhammad-hamza/lemida-lms.svg)](https://github.com/ab-muhammad-hamza/NumberDeck/issues)
-
-</div>
-
-This is a project done for Naan Mudhalvan Proeject, after the evaluation, the project will be live on a domain and will be further developed!
+**Star the actual version here:** [https://github.com/ab-muhammad-hamza/lemida-lms](https://github.com/ab-muhammad-hamza/lemida-lms)
+**Live Demo:** [https://lemida.vercel.app/](https://lemida.vercel.app/)
+**Docs:** [https://github.com/ab-muhammad-hamza/nm-lms/blob/d3f9f4170305d8242328f00dc6e764a660644f88/Docs/Project%20Report.pdf](https://github.com/ab-muhammad-hamza/nm-lms/blob/d3f9f4170305d8242328f00dc6e764a660644f88/Docs/Project%20Report.pdf)
+**Video Demonstration:** [https://github.com/ab-muhammad-hamza/nm-lms/raw/refs/heads/main/Video%20Demonstration/DemonstrationVideo.mp4](https://github.com/ab-muhammad-hamza/nm-lms/raw/refs/heads/main/Video%20Demonstration/DemonstrationVideo.mp4)
